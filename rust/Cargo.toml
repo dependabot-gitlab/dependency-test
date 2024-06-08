@@ -7,4 +7,4 @@ edition = "2021"
 
 [dependencies]
 test_module = { path = "./rust-test-module" }
-time = "0.1.12"
+time = "0.3.36"
