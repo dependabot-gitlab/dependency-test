@@ -17,7 +17,7 @@ provider "vault" {
 
 module "my_module_name" {
   source  = "gitlab.com/dependabot-gitlab/gitlab-file/local"
-  version = "0.0.3"
+  version = "0.0.4"
 }
 
 output "filesize_in_bytes" {
