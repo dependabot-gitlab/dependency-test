@@ -41,7 +41,6 @@ updates:
     allow:
       - dependency-type: all
     registries:
-      - maven-mapbox
       - maven-gitlab
   - package-ecosystem: gradle
     directory: "/java_2"
@@ -73,8 +72,6 @@ updates:
     commit-message:
       prefix: "chore"
       include: "scope"
-    registries:
-      - rubygems
   - package-ecosystem: bundler
     directory: "/ruby_2"
     insecure-external-code-execution: allow
@@ -83,8 +80,6 @@ updates:
     commit-message:
       prefix: "chore"
       include: "scope"
-    registries:
-      - rubygems
   - package-ecosystem: docker
     directory: "/docker"
     schedule:
@@ -116,8 +111,6 @@ updates:
     directory: /go
     schedule:
       interval: daily
-    registries:
-      - none
   - package-ecosystem: cargo
     directory: "/rust"
     schedule:
