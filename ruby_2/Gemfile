@@ -2,7 +2,7 @@
 
 source "https://rubygems.org"
 
-gem "nokogiri", "1.16.4"
+gem "nokogiri", "1.16.5"
 
 group :test do
   gem "rubocop", "1.63.5"
