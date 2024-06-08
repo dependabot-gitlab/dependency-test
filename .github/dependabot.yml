@@ -43,10 +43,6 @@ updates:
     registries:
       - maven-mapbox
       - maven-gitlab
-    auto-merge:
-      ignore:
-        - dependency-name: org.http4k:http4k-bom
-          update-types: ["version-update:semver-minor"]
   - package-ecosystem: gradle
     directory: "/java_2"
     schedule:
@@ -122,8 +118,6 @@ updates:
       interval: daily
     registries:
       - none
-    auto-merge:
-      squash: true
   - package-ecosystem: cargo
     directory: "/rust"
     schedule:
