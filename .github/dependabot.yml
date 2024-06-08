@@ -35,9 +35,6 @@ updates:
     directory: "/java"
     schedule:
       interval: daily
-    commit-message:
-      prefix: "chore"
-      include: "scope"
     allow:
       - dependency-type: all
     registries:
@@ -46,9 +43,6 @@ updates:
     directory: "/java_2"
     schedule:
       interval: daily
-    commit-message:
-      prefix: "chore"
-      include: "scope"
     allow:
       - dependency-type: all
     registries:
@@ -58,9 +52,6 @@ updates:
     insecure-external-code-execution: allow
     schedule:
       interval: daily
-    commit-message:
-      prefix: "chore"
-      include: "scope"
     registries:
       - python-gitlab
   - package-ecosystem: bundler
@@ -69,17 +60,11 @@ updates:
     insecure-external-code-execution: allow
     schedule:
       interval: daily
-    commit-message:
-      prefix: "chore"
-      include: "scope"
   - package-ecosystem: bundler
     directory: "/ruby_2"
     insecure-external-code-execution: allow
     schedule:
       interval: daily
-    commit-message:
-      prefix: "chore"
-      include: "scope"
   - package-ecosystem: docker
     directory: "/docker"
     schedule:
