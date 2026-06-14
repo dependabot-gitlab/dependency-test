@@ -9,7 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@dependabot-gitlab/testing": "1.0.0",
+    "@dependabot-gitlab/testing": "1.2.0",
     "cypress": "^13.1.0"
   }
 }
